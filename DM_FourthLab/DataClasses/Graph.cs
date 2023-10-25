@@ -8,8 +8,8 @@ namespace DM_FourthLab.DataClasses
 {
     public class Graph
     {
-        private List<int>[] adjacent;
-        private List<List<int>> allPaths;
+        private List<int>[] adjacent; // суміжні вершини для певної вершини
+        private List<List<int>> allPaths; // знайдені вершини
 
         public Graph(int v)
         {
